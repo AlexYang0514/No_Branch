@@ -1,4 +1,5 @@
-	;: DEF W880D4U_2L2Q_Version_R135						;;20250917 AlexYang | Release  1.35
+	;: DEF W880D4U_2L2Q_Version_R136						;;20250917 AlexYang | Release  1.36
+	;:-DEF W880D4U_2L2Q_Version_R135						;;20250917 AlexYang | Release  1.35
 	;:-DEF W880D4U_2L2Q_Version_R134						;;20250917 AlexYang | Release  1.34
 	;:-DEF W880D4U_2L2Q_Version_R133						;;20250917 AlexYang | Release  1.33
 	;:-DEF W880D4U_2L2Q_Version_R132						;;20250917 AlexYang | Release  1.32
@@ -7,6 +8,18 @@
 	;:-DEF W880D4U_2L2Q_Version_R129						;;20250902 AlexYang | Release W880D4U-2L2Q 1.29
 ;;##############################################################################################################################
 ;; DEF
+;:IFDEF W880D4U_2L2Q_Version_R136							HISTORY
+ ;: Version 										"1.36"
+ ;: BaseOn 										"RC103__Z890-LiveMixer-WiFi_1.37"
+ ;: CodeBase										"5.32_9AACA_RC0D.00.D6.00(5060.81)_103"
+ ;: ReleaseDate										"2025/09/17"
+ ;: Message 										""
+ ;: FileName 										"W880D4U-2L2Q_1.36.ROM"
+ ;: DEF W880D4U_2L2Q_Version_R135                                                       ;;20250917 AlexYang | Base On  1.35
+
+;;test
+;:ENDIF W880D4U_2L2Q_Version_R136
+
 ;:IFDEF W880D4U_2L2Q_Version_R135							HISTORY
  ;: Version 										"1.35"
  ;: BaseOn 										"RC103__Z890-LiveMixer-WiFi_1.37"
@@ -89,6 +102,8 @@
 
 
 ;:ENDIF W880D4U_2L2Q_Version_R129
+
+;;test
 
 ;;test
 
